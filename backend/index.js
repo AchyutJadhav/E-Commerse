@@ -22,10 +22,7 @@ mongoose
   });
 
 
-
-// app.use(bodyParser.json());
-
-// console.log("Backend is working");
+console.log("Backend is working");
 
 app.use(cors());
 app.use(express.json()); 
